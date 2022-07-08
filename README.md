@@ -12,7 +12,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 ### Links
 
 - [GitHub Pages] 
-- [GitHub Code]
+- [GitHub Code] https://github.com/soitirakis/four-card-feature
 
 
 ### Continued development
