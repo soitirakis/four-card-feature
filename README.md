@@ -11,7 +11,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Links
 
-- [GitHub Pages] 
+- [GitHub Pages] https://soitirakis.github.io/four-card-feature/
 - [GitHub Code] https://github.com/soitirakis/four-card-feature
 
 
