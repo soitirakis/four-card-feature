@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+:root {
+  --color: hsl(0,78%,32%);
+  --color2: hsl(180,62%,55%);
+  --color3: hsl(34,97%,64%);
+  --color4: hsl(212, 86%, 64%);
+
+  --color-heading: hsl(234, 12%, 34%);
+  --color-paragraph: hsl(229, 6%, 66%);
+  --color-layout-background: hsl(0,0%,98%);
+}
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-layout-background);
+}
+.container {
+  display: grid;
+  grid-row-gap: 2rem;
+  font-family: Poppins;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  padding: 2rem;
+  margin: auto;
+}
+.section-layout {
+  width: 375px;
+  max-width: 100%;
+  height: auto;
+  padding: 1.75rem;
+  color: var(--color-paragraph);
+  background: white;
+  border-radius: 1rem;
+  margin: auto;
+  box-shadow: 5px 5px 3px 3px var(--color-paragraph);
+}
+.extra-title-info, .section-heading{
+  font-weight: 600;
+}
+.section-heading {
+  color: var(--color-heading);
+}
+.section-image {
+  margin-left: 75%;
+}
+.main-section {
+  background: var(--color-layout-background);
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+.main-heading {
+  font-weight: 200;
+}
+
+.supervisor {
+  border-top: 8px solid var(--color2);
+}
+.team-builder {
+  border-top:  8px solid var(--color);
+}
+.karma {
+  border-top: 8px solid var(--color3);
+}
+.calculator {
+  border-top: 8px solid var(--color4);
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    grid-column-gap: 2rem;
+  }
+  .main-section {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    width: 650px;
+    text-align: center;
+  }
+  .supervisor {
+    grid-column: 1/2;
+    grid-row: 2/4;
+  }
+  .team-builder, .karma {
+    grid-column: 2/3;
+  }
+  .calculator {
+    grid-column: 3/4;
+    grid-row: 2/4;
+  }
+}
