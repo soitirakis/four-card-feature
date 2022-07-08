@@ -27,8 +27,8 @@ html, body {
   margin: auto;
 }
 .section-layout {
-  width: 375px;
-  max-width: 100%;
+  max-width: 375px;
+  width: 100%;
   height: auto;
   padding: 1.75rem;
   color: var(--color-paragraph);
@@ -73,6 +73,10 @@ html, body {
   .container {
     width: 1200px;
     grid-column-gap: 2rem;
+  }
+  .section-layout {
+    width: 375px;
+    max-width: 100%;
   }
   .main-section {
     grid-column: 1/4;
